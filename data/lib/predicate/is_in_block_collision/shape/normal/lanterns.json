@@ -1,0 +1,129 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:lantern",
+							"minecraft:soul_lantern"
+						],
+						"state": {
+							"hanging": "false"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.375,
+						"max": 0.625
+					},
+					"y": {
+						"min": 0.4375,
+						"max": 0.5625
+					},
+					"z": {
+						"min": 0.375,
+						"max": 0.625
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:lantern",
+							"minecraft:soul_lantern"
+						],
+						"state": {
+							"hanging": "false"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.6875
+					},
+					"y": {
+						"min": 0,
+						"max": 0.4375
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.6875
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:lantern",
+							"minecraft:soul_lantern"
+						],
+						"state": {
+							"hanging": "true"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.375,
+						"max": 0.625
+					},
+					"y": {
+						"min": 0.5,
+						"max": 0.625
+					},
+					"z": {
+						"min": 0.375,
+						"max": 0.625
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": [
+							"minecraft:lantern",
+							"minecraft:soul_lantern"
+						],
+						"state": {
+							"hanging": "true"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.6875
+					},
+					"y": {
+						"min": 0.0625,
+						"max": 0.5
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.6875
+					}
+				}
+			}
+		}
+	]
+}
