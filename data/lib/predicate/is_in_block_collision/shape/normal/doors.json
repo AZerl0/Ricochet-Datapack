@@ -1,0 +1,21 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/doors/east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/doors/west"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/doors/south"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/doors/north"
+		}
+	]
+}
