@@ -1,0 +1,21 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/half"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/straight"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/inner"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/bottom/north_east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/bottom/north_west"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/bottom/south_east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/bottom/south_west"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/top/north_east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/top/north_west"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/top/south_east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs/outer/top/south_west"
+		}
+	]
+}
