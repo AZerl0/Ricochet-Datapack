@@ -1,5 +1,5 @@
 #> ricochet:tick
 #
-# 
+
 #
-# @within  ricochet:ricochet
+    execute as @e[tag=ricochet.projectile] at @s run function ricochet:arrow/tick
