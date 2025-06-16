@@ -1,0 +1,117 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "#minecraft:candles",
+						"state": {
+							"candles": "1"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.4375,
+						"max": 0.5625
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.4375,
+						"max": 0.5625
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "#minecraft:candles",
+						"state": {
+							"candles": "2"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.6875
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.375,
+						"max": 0.5625
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "#minecraft:candles",
+						"state": {
+							"candles": "3"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.625
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.375,
+						"max": 0.6875
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "#minecraft:candles",
+						"state": {
+							"candles": "4"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.6875
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.625
+					}
+				}
+			}
+		}
+	]
+}

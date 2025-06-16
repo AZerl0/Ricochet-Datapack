@@ -1,0 +1,21 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts/small_amethyst_bud"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts/medium_amethyst_bud"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts/large_amethyst_bud"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts/amethyst_cluster"
+		}
+	]
+}

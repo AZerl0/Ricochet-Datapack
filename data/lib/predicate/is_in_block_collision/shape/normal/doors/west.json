@@ -1,0 +1,60 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "minecraft:bamboo_door",
+							"state": {
+								"facing": "west",
+								"open": "false"
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "minecraft:bamboo_door",
+							"state": {
+								"facing": "north",
+								"hinge": "right",
+								"open": "true"
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:doors",
+							"state": {
+								"facing": "south",
+								"hinge": "left",
+								"open": "true"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"distance": {
+					"x": {
+						"min": 0.8125,
+						"max": 1
+					}
+				}
+			}
+		}
+	]
+}

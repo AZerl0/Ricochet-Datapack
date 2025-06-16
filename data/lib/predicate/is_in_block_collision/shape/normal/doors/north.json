@@ -1,0 +1,60 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:doors",
+							"state": {
+								"facing": "north",
+								"open": "false"
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:doors",
+							"state": {
+								"facing": "east",
+								"hinge": "right",
+								"open": "true"
+							}
+						}
+					}
+				},
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"block": {
+							"blocks": "#minecraft:doors",
+							"state": {
+								"facing": "west",
+								"hinge": "left",
+								"open": "true"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"distance": {
+					"z": {
+						"min": 0.8125,
+						"max": 1
+					}
+				}
+			}
+		}
+	]
+}

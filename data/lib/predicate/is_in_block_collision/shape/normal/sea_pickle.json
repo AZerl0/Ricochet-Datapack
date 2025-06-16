@@ -1,0 +1,117 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:sea_pickle",
+						"state": {
+							"pickles": "1"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.625
+					},
+					"y": {
+						"min": 0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.625
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:sea_pickle",
+						"state": {
+							"pickles": "2"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.1875,
+						"max": 0.8125
+					},
+					"y": {
+						"min": 0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.1875,
+						"max": 0.8125
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:sea_pickle",
+						"state": {
+							"pickles": "3"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.125,
+						"max": 0.875
+					},
+					"y": {
+						"min": 0,
+						"max": 0.375
+					},
+					"z": {
+						"min": 0.125,
+						"max": 0.875
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:sea_pickle",
+						"state": {
+							"pickles": "4"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.125,
+						"max": 0.875
+					},
+					"y": {
+						"min": 0,
+						"max": 0.4375
+					},
+					"z": {
+						"min": 0.125,
+						"max": 0.875
+					}
+				}
+			}
+		}
+	]
+}

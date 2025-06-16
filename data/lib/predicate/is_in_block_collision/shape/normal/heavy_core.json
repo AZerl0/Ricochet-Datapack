@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"blocks": "minecraft:heavy_core"
+			}
+		},
+		"distance": {
+			"x": {
+				"min": 0.25,
+				"max": 0.75
+			},
+			"y": {
+				"min": 0.0,
+				"max": 0.5
+			},
+			"z": {
+				"min": 0.25,
+				"max": 0.75
+			}
+		}
+	}
+}

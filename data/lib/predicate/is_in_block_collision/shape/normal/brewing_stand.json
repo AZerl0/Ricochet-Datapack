@@ -1,0 +1,55 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": ["minecraft:brewing_stand"]
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.0625,
+						"max": 0.9375
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.125
+					},
+					"z": {
+						"min": 0.0625,
+						"max": 0.9375
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:brewing_stand"
+					}
+				},
+				"distance": {
+					"x": {
+						"min": 0.4375,
+						"max": 0.5625
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.875
+					},
+					"z": {
+						"min": 0.4375,
+						"max": 0.5625
+					}
+				}
+			}
+		}
+	]
+}

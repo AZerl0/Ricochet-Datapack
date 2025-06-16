@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"blocks": "minecraft:dragon_egg"
+			}
+		},
+		"distance": {
+			"x": {
+				"min": 0.0625,
+				"max": 0.9375
+			},
+			"z": {
+				"min": 0.0625,
+				"max": 0.9375
+			}
+		}
+	}
+}

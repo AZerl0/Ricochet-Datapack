@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"blocks": "minecraft:conduit"
+			}
+		},
+		"distance": {
+			"x": {
+				"min": 0.3125,
+				"max": 0.6875
+			},
+			"y": {
+				"min": 0.3125,
+				"max": 0.6875
+			},
+			"z": {
+				"min": 0.3125,
+				"max": 0.6875
+			}
+		}
+	}
+}
