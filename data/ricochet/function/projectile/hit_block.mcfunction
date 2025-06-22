@@ -15,6 +15,7 @@
     function lib:util/get_near_block_faces {distance:0.0625}
 #title @a actionbar [{"nbt":"faces","storage": "return:"}]
 # 当たったが衝突位置を見つけられなかったのでストップ
+    execute unless data storage return: {axis:{x:1b}} unless data storage return: {axis:{y:1b}} unless data storage return: {axis:{z:1b}} if data entity @s {life:1s} run function ricochet:projectile/hit_block/error
     execute unless data storage return: {axis:{x:1b}} unless data storage return: {axis:{y:1b}} unless data storage return: {axis:{z:1b}} run return fail
 
 # Motion
