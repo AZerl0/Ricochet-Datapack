@@ -59,6 +59,10 @@
 		},
 		{
 			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/chests"
+		},
+		{
+			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/comparator"
 		},
 		{
