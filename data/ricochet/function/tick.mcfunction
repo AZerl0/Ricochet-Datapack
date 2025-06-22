@@ -2,4 +2,4 @@
 #
 
 #
-    execute as @e[tag=ricochet.projectile] at @s run function ricochet:arrow/tick
+    execute as @e[tag=ricochet.projectile,] at @s run function ricochet:projectile/tick
