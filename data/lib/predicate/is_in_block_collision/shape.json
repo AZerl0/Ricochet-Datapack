@@ -3,11 +3,27 @@
 	"terms": [
 		{
 			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/anvil"
+		},
+		{
+			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/azaleas"
 		},
 		{
 			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/bamboo"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/beds"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/bell"
 		},
 		{
 			"condition": "minecraft:reference",
@@ -44,6 +60,10 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/chain"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/chests"
 		},
 		{
 			"condition": "minecraft:reference",
@@ -127,6 +147,10 @@
 		},
 		{
 			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/lectern"
+		},
+		{
+			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/lightning_rod"
 		},
 		{
@@ -188,6 +212,10 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/trapdoors"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/turtle_egg"
 		},
 		{
 			"condition": "minecraft:reference",
