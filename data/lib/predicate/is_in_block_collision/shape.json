@@ -23,6 +23,10 @@
 		},
 		{
 			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/bell"
+		},
+		{
+			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/big_dripleaf"
 		},
 		{
