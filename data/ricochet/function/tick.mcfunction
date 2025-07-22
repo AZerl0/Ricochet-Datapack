@@ -10,3 +10,6 @@
 
 # 跳弾エンチャントは付与されていなくても、跳弾の条件に一致している可能性があるので、タグが付与されていない投擲物も処理する
     execute as @e[type=#ricochet:ricochet_projectile,tag=!ricochet.projectile] at @s run function ricochet:projectile/tick
+
+# ゲームプレイのメイン処理
+    function ricochet:gameplay/tick
