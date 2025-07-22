@@ -5,9 +5,9 @@
     function lib:load/main
 
 #スコアボード
-#    scoreboard objectives remove ricochet.bouncing
-    scoreboard objectives add ricochet.bouncing dummy
+    scoreboard objectives add ricochet.remaining_ricochets dummy
     scoreboard objectives add ricochet.movement_speed dummy
+    scoreboard objectives add ricochet.ricochet_count dummy
 
 # 跳弾発光用チーム
     team add ricochet.projectile

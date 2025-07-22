@@ -5,9 +5,16 @@
 #
 # @within function ricochet:tick
 
-
-# 反射処理
+# 常にこのNBTを削除してOwnerに当たらないようにする
     data remove entity @s LeftOwner
-    execute if data entity @s[tag=ricochet.projectile] {inGround:1b} if score @s ricochet.bouncing matches 1.. run function ricochet:projectile/hit_block
-    execute if data entity @s[tag=!ricochet.projectile] {inGround:1b,inBlockState:{Name:"minecraft:slime_block"}} if score @s ricochet.bouncing matches 1.. run function ricochet:projectile/hit_block
+
+# 跳弾の条件に一致していたら反射処理
+# 反射処理を呼び出すとinGroundが0bになるので1tick内で複数の条件によって処理が重なることはない
+
+    # スコアが1以上の跳弾エンチャントの矢
+        execute if entity @s[predicate=ricochet:can_ricochet_projectile/ricochet] run function ricochet:projectile/hit_block
+    # スライムブロックに刺さった投擲物
+        execute if entity @s[predicate=ricochet:can_ricochet_projectile/slime_block] run function ricochet:projectile/hit_block
+
+# 現在のMotionを保存
     data modify entity @s item.components.minecraft:custom_data.last_motion set from entity @s Motion
