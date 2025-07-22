@@ -1,5 +1,9 @@
 #> ricochet:projectile/tick
 #
+# 跳弾の状態を更新
+# これには実際に跳弾させる以外にも毎tick、Motionを保存する等の処理も含まれる
+#
+# @within function ricochet:tick
 
 
 # 反射処理
