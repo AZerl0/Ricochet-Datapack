@@ -119,10 +119,6 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "lib:is_in_block_collision/shape/normal/fences"
-		},
-		{
-			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/flower_pots"
 		},
 		{

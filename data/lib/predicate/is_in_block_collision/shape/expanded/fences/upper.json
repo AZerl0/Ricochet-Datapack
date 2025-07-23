@@ -35,19 +35,19 @@
 				},
 				{
 					"condition": "reference",
-					"name": "lib:is_in_block_collision/shape/normal/fences/upper/east"
+					"name": "lib:is_in_block_collision/shape/expanded/fences/upper/east"
 				},
 				{
 					"condition": "reference",
-					"name": "lib:is_in_block_collision/shape/normal/fences/upper/north"
+					"name": "lib:is_in_block_collision/shape/expanded/fences/upper/north"
 				},
 				{
 					"condition": "reference",
-					"name": "lib:is_in_block_collision/shape/normal/fences/upper/south"
+					"name": "lib:is_in_block_collision/shape/expanded/fences/upper/south"
 				},
 				{
 					"condition": "reference",
-					"name": "lib:is_in_block_collision/shape/normal/fences/upper/west"
+					"name": "lib:is_in_block_collision/shape/expanded/fences/upper/west"
 				}
 			]
 		}
