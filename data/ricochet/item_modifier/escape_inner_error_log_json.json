@@ -1,0 +1,11 @@
+{
+	"function": "minecraft:set_name",
+	"entity": "this",
+	"name": {
+		"storage": "temp:",
+		"nbt": "error_log",
+		"source": "storage",
+		"type": "nbt"
+	},
+	"target": "item_name"
+}
