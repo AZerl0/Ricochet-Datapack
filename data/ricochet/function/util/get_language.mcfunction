@@ -13,7 +13,7 @@
 
 # 言語取得(現在対応: en, ja)
     execute if entity @n[name="コマンドブロック",tag=ricochet.language_detect] run data modify storage return: lang set value "ja"
-    execute if entity @n[name="Command block",tag=ricochet.language_detect] run data modify storage return: lang set value "en"
+    execute if entity @n[name="Command Block",tag=ricochet.language_detect] run data modify storage return: lang set value "en"
 
 # 後始末
     kill @n[tag=ricochet.language_detect]
