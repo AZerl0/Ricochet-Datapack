@@ -1,0 +1,225 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/amethysts"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/anvil"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/azaleas"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/bamboo"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/beds"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/bell"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/big_dripleaf"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/brewing_stand"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/cactus"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/calibrated_sculk_sensor"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/campfires"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/candles"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/carpets"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/cauldrons"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/chain"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/chests"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/comparator"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/composter"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/conduit"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/daylight_detector"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/decorated_pot"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/dirt_path"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/doors"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/dragon_egg"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/enchanting_table"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/end_portal_frame"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/end_rod"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/ender_chest"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/farmland"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/fences"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/flower_pots"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/heavy_core"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/honey_block"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/hopper"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/ladder"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/lanterns"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/lectern"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/lightning_rod"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/lily_pad"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/mob_skulls"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/mud"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/pistons"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/repeater"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/sculk_sensor"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/sculk_shrieker"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/sea_pickle"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/slabs"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/sniffer_egg"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/snow"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/soul_sand"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/stairs"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/stonecutter"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/trapdoors"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/turtle_egg"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/wall_hanging_signs"
+		}
+	]
+}
