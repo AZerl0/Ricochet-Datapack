@@ -1,0 +1,43 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:tipped_arrow",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:oozing"
+				}
+			}
+		},
+		"title": "Tricky Sniper",
+		"description": "Shoot mob by ricocheting arrows at least 3 times from a distance of 30m or more",
+		"frame": "challenge"
+	},
+	"parent": "minecraft:adventure/shoot_arrow",
+	"criteria": {
+		"tricky_snipe": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"type": {
+						"direct_entity": {
+							"type": "#ricochet:ricochet_projectile",
+							"nbt": "{Tags:[\"ricochet.tricky\"]}"
+						}
+					}
+				},
+				"entity": {
+					"distance": {
+						"absolute": {
+							"min": 30
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [["tricky_snipe"]],
+	"rewards": {
+		"experience": 50
+	},
+	"sends_telemetry_event": true
+}

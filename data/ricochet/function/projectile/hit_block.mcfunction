@@ -16,6 +16,8 @@
     # カウント
         scoreboard players add @s ricochet.ricochet_count 1
 
+    # 特定の回数以上跳弾したら進捗用のタグ付与
+        execute if score @s ricochet.ricochet_count matches 3.. run tag @s add ricochet.tricky
 
 # 衝突した面の取得
     function lib:util/get_near_block_faces {distance:0.0625}
