@@ -8,7 +8,7 @@
 					"condition": "minecraft:location_check",
 					"predicate": {
 						"block": {
-							"blocks": "minecraft:bamboo_door",
+							"blocks": "#minecraft:doors",
 							"state": {
 								"facing": "west",
 								"open": "false"
@@ -20,7 +20,7 @@
 					"condition": "minecraft:location_check",
 					"predicate": {
 						"block": {
-							"blocks": "minecraft:bamboo_door",
+							"blocks": "#minecraft:doors",
 							"state": {
 								"facing": "north",
 								"hinge": "right",
