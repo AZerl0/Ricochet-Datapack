@@ -1,0 +1,13 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/base"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset"
+		}
+	]
+}

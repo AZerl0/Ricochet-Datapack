@@ -1,0 +1,40 @@
+{
+	"condition": "all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": { "blocks": "minecraft:piston_head" }
+			}
+		},
+		{
+			"condition": "any_of",
+			"terms": [
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/down"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/east"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/north"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/south"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/up"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/piston_head/base/west"
+				}
+			]
+		}
+	]
+}

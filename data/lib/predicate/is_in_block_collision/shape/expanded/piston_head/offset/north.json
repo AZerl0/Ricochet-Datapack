@@ -1,0 +1,38 @@
+{
+	"condition": "all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"offsetZ": -1,
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:piston_head",
+					"state": {
+						"facing": "north",
+						"short": "false"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"distance": {
+					"x": {
+						"min": 0.375,
+						"max": 0.625
+					},
+					"y": {
+						"min": 0.375,
+						"max": 0.625
+					},
+					"z": {
+						"min": 0.0,
+						"max": 0.25
+					}
+				}
+			}
+		}
+	]
+}

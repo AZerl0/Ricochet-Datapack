@@ -11,6 +11,10 @@
 		},
 		{
 			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head"
+		},
+		{
+			"condition": "reference",
 			"name": "lib:is_in_block_collision/shape/expanded/pitcher_crop"
 		},
 		{

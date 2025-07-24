@@ -1,0 +1,29 @@
+{
+	"condition": "any_of",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/down"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/east"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/north"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/south"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/up"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/piston_head/offset/west"
+		}
+	]
+}
