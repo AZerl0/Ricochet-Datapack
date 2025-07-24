@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"state": {
+					"up": "true"
+				}
+			}
+		},
+		"distance": {
+			"x": {
+				"min": 0.25,
+				"max": 0.75
+			},
+			"z": {
+				"min": 0.25,
+				"max": 0.75
+			}
+		}
+	}
+}

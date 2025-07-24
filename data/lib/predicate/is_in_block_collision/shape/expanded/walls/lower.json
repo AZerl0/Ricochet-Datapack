@@ -1,0 +1,30 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": "#minecraft:walls"
+				}
+			}
+		},
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/walls/lower/base"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/walls/lower/facing"
+				},
+				{
+					"condition": "reference",
+					"name": "lib:is_in_block_collision/shape/expanded/walls/lower/up"
+				}
+			]
+		}
+	]
+}

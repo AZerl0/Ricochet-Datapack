@@ -8,6 +8,10 @@
 		{
 			"condition": "reference",
 			"name": "lib:is_in_block_collision/shape/expanded/fences"
+		},
+		{
+			"condition": "reference",
+			"name": "lib:is_in_block_collision/shape/expanded/walls"
 		}
 	]
 }

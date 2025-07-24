@@ -1,0 +1,34 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:location_check",
+				"predicate": {
+					"block": {
+						"state": {
+							"west": "none"
+						}
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"distance": {
+					"x": {
+						"min": 0.0,
+						"max": 0.3125
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.6875
+					}
+				}
+			}
+		}
+	]
+}
