@@ -1,0 +1,36 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"block": {
+					"blocks": "minecraft:pitcher_crop",
+					"state": {
+						"age": "0"
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"distance": {
+					"x": {
+						"min": 0.3125,
+						"max": 0.6875
+					},
+					"y": {
+						"min": 0,
+						"max": 0.1875
+					},
+					"z": {
+						"min": 0.3125,
+						"max": 0.6875
+					}
+				}
+			}
+		}
+	]
+}
