@@ -19,6 +19,5 @@
     # NBTが存在しない = true
         execute unless data storage temp: predicate run return 1
     # ここまで通過している = false
-        say fail
         data remove storage temp: predicate
         return fail
