@@ -2,7 +2,7 @@
 #
 # 竹のcollision内か判定
 #
-# @within function lib:calculation/flower_position/get
+# @api
 
 # 実行座標がbambooでなければreturn fail
     execute unless block ~ ~ ~ bamboo run return fail
