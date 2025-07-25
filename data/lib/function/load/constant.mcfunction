@@ -62,3 +62,8 @@ scoreboard players set #200 Constant 200
 scoreboard players set #1000 Constant 1000
 scoreboard players set #2048 Constant 2048
 scoreboard players set #10000 Constant 10000
+scoreboard players set #65536 Constant 65536
+scoreboard players set #16777216 Constant 16777216
+scoreboard players set #42317861 Constant 42317861
+scoreboard players set #50077936 Constant 50077936
+scoreboard players set #1858076496 Constant 1858076496

@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"distance": {
+			"x": {
+				"min": -0.34375,
+				"max": 0.34375
+			},
+			"z": {
+				"min": -0.34375,
+				"max": 0.34375
+			}
+		}
+	}
+}
