@@ -1,0 +1,129 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:pointed_dripstone",
+						"state": {
+							"thickness": "tip"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": -0.1875,
+						"max": 0.1875
+					},
+					"y": {
+						"min": 0.0,
+						"max": 0.6875
+					},
+					"z": {
+						"min": -0.1875,
+						"max": 0.1875
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:pointed_dripstone",
+						"state": {
+							"thickness": "tip_merge"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": -0.3125,
+						"max": 0.3125
+					},
+					"z": {
+						"min": -0.3125,
+						"max": 0.3125
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:pointed_dripstone",
+						"state": {
+							"thickness": "frustum"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": -0.25,
+						"max": 0.25
+					},
+					"z": {
+						"min": -0.25,
+						"max": 0.25
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:pointed_dripstone",
+						"state": {
+							"thickness": "middle"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": -0.3125,
+						"max": 0.3125
+					},
+					"z": {
+						"min": -0.3125,
+						"max": 0.3125
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"location": {
+					"block": {
+						"blocks": "minecraft:pointed_dripstone",
+						"state": {
+							"thickness": "base"
+						}
+					}
+				},
+				"distance": {
+					"x": {
+						"min": -0.375,
+						"max": 0.375
+					},
+					"z": {
+						"min": -0.375,
+						"max": 0.375
+					}
+				}
+			}
+		}
+	]
+}

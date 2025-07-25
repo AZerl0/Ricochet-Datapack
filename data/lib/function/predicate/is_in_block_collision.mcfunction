@@ -11,6 +11,8 @@
     execute summon item align xyz if predicate lib:is_in_block_collision run return 1
 # 例外的にbambooは別で判定する
     execute if function lib:predicate/is_in_block_collision/is_in_bamboo_collision run return 1
+# 例外的にpointed_dripstoneは別で判定する
+    execute if function lib:predicate/is_in_block_collision/is_in_pointed_dripstone_collision run return 1
 
 # ここが呼び出されるのはcollision box内ではない時なのでreturn fail
     return fail
