@@ -137,21 +137,21 @@
         #　Offsetを格納
         $data modify storage temp: MAX_HORIZONTAL_OFFSET set value $(MAX_HORIZONTAL_OFFSET)
         # 100000倍してスコアに格納
-        execute store result score $MAX_HORIZONTAL_OFFSET temp run data get storage temp: MAX_HORIZONTAL_OFFSET 0.00001
+        execute store result score $MAX_HORIZONTAL_OFFSET temp run data get storage temp: MAX_HORIZONTAL_OFFSET 100000
         # MINも取得
-        execute store result score $MIN_HORIZONTAL_OFFSET temp run data get storage temp: MAX_HORIZONTAL_OFFSET -0.00001
+        execute store result score $MIN_HORIZONTAL_OFFSET temp run data get storage temp: MAX_HORIZONTAL_OFFSET -100000
         # clamp
         execute if score #x temp > $MAX_HORIZONTAL_OFFSET temp run scoreboard players operation #x temp = $MAX_HORIZONTAL_OFFSET temp
-        execute if score #x temp > $MAX_HORIZONTAL_OFFSET temp run scoreboard players operation #x temp = $MIN_HORIZONTAL_OFFSET temp
+        execute if score #x temp < $MIN_HORIZONTAL_OFFSET temp run scoreboard players operation #x temp = $MIN_HORIZONTAL_OFFSET temp
         execute if score #z temp > $MAX_HORIZONTAL_OFFSET temp run scoreboard players operation #z temp = $MAX_HORIZONTAL_OFFSET temp
-        execute if score #z temp > $MAX_HORIZONTAL_OFFSET temp run scoreboard players operation #z temp = $MIN_HORIZONTAL_OFFSET temp
+        execute if score #z temp < $MIN_HORIZONTAL_OFFSET temp run scoreboard players operation #z temp = $MIN_HORIZONTAL_OFFSET temp
 ## 出力
     # x
         execute store result storage return: x float 0.00001 run scoreboard players get #x temp
     # z
         execute store result storage return: z float 0.00001 run scoreboard players get #z temp
     # debug
-        #title @s actionbar [{"translate":"(%s,%s)","with":[{"nbt":"x","storage":"return:"},{"nbt":"z","storage":"return:"}]},{"translate":"(%s,%s)","with":[{"score": {"objective": "temp","name": "#x"}},{"score": {"objective": "temp","name": "#z"}}]}]
+        title @s actionbar [{"translate":"(%s,%s)","with":[{"nbt":"x","storage":"return:"},{"nbt":"z","storage":"return:"}]},{"translate":"(%s,%s)","with":[{"score": {"objective": "temp","name": "#x"}},{"score": {"objective": "temp","name": "#z"}}]}]
 
 ## 後処理
     # スコアホルダーの削除
