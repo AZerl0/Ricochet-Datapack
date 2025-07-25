@@ -95,6 +95,10 @@
 		},
 		{
 			"condition": "minecraft:reference",
+			"name": "lib:is_in_block_collision/shape/normal/dried_ghast"
+		},
+		{
+			"condition": "minecraft:reference",
 			"name": "lib:is_in_block_collision/shape/normal/enchanting_table"
 		},
 		{

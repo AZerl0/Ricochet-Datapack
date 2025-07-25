@@ -1,3 +1,7 @@
 {
-	"values": ["#minecraft:wool_carpets", "minecraft:moss_carpet"]
+	"values": [
+		{ "id": "#minecraft:wool_carpets", "required": false },
+		{ "id": "minecraft:moss_carpet", "required": false },
+		{ "id": "minecraft:pale_moss_carpet", "required": false }
+	]
 }

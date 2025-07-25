@@ -1,0 +1,25 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"location": {
+			"block": {
+				"blocks": "minecraft:dried_ghast"
+			}
+		},
+		"distance": {
+			"x": {
+				"min": 0.1875,
+				"max": 0.8125
+			},
+			"y": {
+				"min": 0,
+				"max": 0.625
+			},
+			"z": {
+				"min": 0.1875,
+				"max": 0.8125
+			}
+		}
+	}
+}
