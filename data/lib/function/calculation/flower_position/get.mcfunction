@@ -1,8 +1,6 @@
 #> lib:calculation/flower_position/get
 #
-# 実行点の位置の花/竹等の位置を計算する
-# [original]
-# https://github.com/MCJE-Tech-Community/Datapack-WIki/blob/main/02_calculation/data/flower_position/functions/get.mcfunction
+# 実行座標の花/竹のBlockOffsetを取得
 #
 # @api
 
