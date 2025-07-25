@@ -179,7 +179,6 @@
 		{ "required": false, "id": "minecraft:packed_mud" },
 		{ "required": false, "id": "minecraft:pearlescent_froglight" },
 		{ "required": false, "id": "minecraft:podzol" },
-		{ "required": false, "id": "minecraft:pointed_dripstone" },
 		{ "required": false, "id": "minecraft:polished_andesite" },
 		{ "required": false, "id": "minecraft:polished_basalt" },
 		{ "required": false, "id": "minecraft:polished_blackstone" },
