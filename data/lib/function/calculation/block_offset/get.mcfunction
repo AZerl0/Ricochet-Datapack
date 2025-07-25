@@ -151,7 +151,7 @@
     # z
         execute store result storage return: z float 0.00001 run scoreboard players get #z temp
     # debug
-        title @s actionbar [{"translate":"(%s,%s)","with":[{"nbt":"x","storage":"return:"},{"nbt":"z","storage":"return:"}]},{"translate":"(%s,%s)","with":[{"score": {"objective": "temp","name": "#x"}},{"score": {"objective": "temp","name": "#z"}}]}]
+    #title @s actionbar [{"translate":"(%s,%s)","with":[{"nbt":"x","storage":"return:"},{"nbt":"z","storage":"return:"}]},{"translate":"(%s,%s)","with":[{"score": {"objective": "temp","name": "#x"}},{"score": {"objective": "temp","name": "#z"}}]}]
 
 ## 後処理
     # スコアホルダーの削除
