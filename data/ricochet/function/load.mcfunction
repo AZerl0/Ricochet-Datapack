@@ -11,3 +11,6 @@
 # 跳弾発光用チーム
     team add ricochet.projectile
     team modify ricochet.projectile color green
+
+# 導入メッセージ表示
+execute as @a run function ricochet:load/message

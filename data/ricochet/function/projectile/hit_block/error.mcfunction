@@ -7,7 +7,11 @@
 # 想定内のエラーであれば表示しない
 execute if function ricochet:projectile/hit_block/is_invalid_hit run return fail
 
-# 言語に対応したメッセージを表示させる
-function ricochet:util/get_language
-function ricochet:projectile/hit_block/error/lang with storage return:
-data remove storage temp: error_log
+# エラーメッセージを表示
+    # エラーログを生成
+    function ricochet:projectile/hit_block/error/generate_log with entity @s
+    # 言語に対応したメッセージを表示
+    function ricochet:util/lang/get
+    execute on origin run function ricochet:projectile/hit_block/error/message with storage temp:
+    # 後処理
+    data remove storage temp: error_log
