@@ -160,6 +160,7 @@
     scoreboard players reset #seed temp
     scoreboard players reset $MAX_HORIZONTAL_OFFSET temp
     scoreboard players reset $MIN_HORIZONTAL_OFFSET temp
+    data remove storage temp: MAX_HORIZONTAL_OFFSET
 
     # kill
     kill 4fe002bb-0-0-0-1
