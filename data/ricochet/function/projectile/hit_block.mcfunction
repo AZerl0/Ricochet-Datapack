@@ -16,6 +16,9 @@
     # カウント
         scoreboard players add @s ricochet.ricochet_count 1
 
+    # 残りの跳弾回数が0になったときの処理
+        execute if score @s ricochet.remaining_ricochets matches 0 run data modify entity @s Glowing set value false
+
     # 特定の回数以上跳弾したら進捗用のタグ付与
         execute if score @s ricochet.ricochet_count matches 3.. run tag @s add ricochet.tricky
 
@@ -49,12 +52,6 @@
 #    execute if data storage lib: {HitBlock:{Face:{axis:"X"}}} run title @a actionbar [{"text":"Axis - ", "color": "white"},{"text":"X","color":"red"}]
 #    execute if data storage lib: {HitBlock:{Face:{axis:"Y"}}} run title @a actionbar [{"text":"Axis - ", "color": "white"},{"text":"Y","color":"green"}]
 #    execute if data storage lib: {HitBlock:{Face:{axis:"Z"}}} run title @a actionbar [{"text":"Axis - ", "color": "white"},{"text":"Z","color":"blue"}]
-
-# KillCheck
-# 速度の取得
-#    function lib:entity/get/movement_speed
-#    tellraw @a {"score": {"objective": "entity.movement_speed","name": "@s"}}
-#    execute if score @s ricochet.movement_speed matches ..200 run kill @s
 
 # MotionからRotationを求め、反映
     data modify storage lib: input.Motion set from entity @s Motion

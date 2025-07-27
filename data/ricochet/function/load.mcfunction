@@ -6,9 +6,8 @@
 
 #スコアボード
     scoreboard objectives add ricochet.remaining_ricochets dummy
-    scoreboard objectives add ricochet.movement_speed dummy
     scoreboard objectives add ricochet.ricochet_count dummy
 
 # 跳弾発光用チーム
     team add ricochet.projectile
-    team modify ricochet.projectile color aqua
+    team modify ricochet.projectile color green
