@@ -16,5 +16,8 @@
     # スライムブロックに刺さった投擲物
         execute if entity @s[predicate=ricochet:can_ricochet_projectile/slime_block] run function ricochet:projectile/hit_block
 
+# 残りの跳弾回数が0で突き刺さった投擲物からGlowingを消す
+execute as @e[predicate=ricochet:clear_glowing] run data modify entity @s Glowing set value false
+
 # 現在のMotionを保存
     data modify entity @s item.components.minecraft:custom_data.last_motion set from entity @s Motion

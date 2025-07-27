@@ -16,9 +16,6 @@
     # カウント
         scoreboard players add @s ricochet.ricochet_count 1
 
-    # 残りの跳弾回数が0になったときの処理
-        execute if score @s ricochet.remaining_ricochets matches 0 run data modify entity @s Glowing set value false
-
     # 特定の回数以上跳弾したら進捗用のタグ付与
         execute if score @s ricochet.ricochet_count matches 3.. run tag @s add ricochet.tricky
 

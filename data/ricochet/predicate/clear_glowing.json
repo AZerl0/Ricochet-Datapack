@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"nbt": "{inGround:1b,Glowing:1b,Tags:[\"ricochet.projectile\"]}"
+			}
+		}
+	]
+}
