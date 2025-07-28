@@ -7,6 +7,13 @@
 			"predicate": {
 				"nbt": "{inGround:1b,Glowing:1b,Tags:[\"ricochet.projectile\"]}"
 			}
+		},
+		{
+			"condition": "minecraft:entity_scores",
+			"entity": "this",
+			"scores": {
+				"ricochet.remaining_ricochets": 0
+			}
 		}
 	]
 }
