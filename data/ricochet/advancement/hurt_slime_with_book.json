@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"hurt_slime_with_book": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:book",
+								"minecraft:enchanted_book"
+							]
+						}
+					}
+				},
+				"entity": {
+					"type": "minecraft:slime"
+				}
+			}
+		}
+	},
+	"requirements": [["hurt_slime_with_book"]],
+	"rewards": {
+		"function": "ricochet:gameplay/enchanted_book_from_slime/hurt_slime_with_book"
+	}
+}

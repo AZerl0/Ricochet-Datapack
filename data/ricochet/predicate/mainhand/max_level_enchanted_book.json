@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": "minecraft:enchanted_book",
+				"predicates": {
+					"minecraft:stored_enchantments": [
+						{
+							"enchantments": "ricochet:ricochet",
+							"levels": {
+								"min": 5
+							}
+						}
+					]
+				}
+			}
+		}
+	}
+}
