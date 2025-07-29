@@ -5,8 +5,6 @@
 #
 # @within function ricochet:tick
 
-# 常にこのNBTを削除してOwnerに当たらないようにする
-    data remove entity @s LeftOwner
 
 # 跳弾の条件に一致していたら反射処理
 # 反射処理を呼び出すとinGroundが0bになるので1tick内で複数の条件によって処理が重なることはない
