@@ -2,14 +2,13 @@
 	"pack": {
 		"description": [
 			{
-				"text": "Ricochet Datapack - 跳弾データパック",
+				"text": "Ricochet / 跳弾",
 				"color": "green",
 				"italic": false
 			},
 			{
-				"translate": "",
-				"fallback": "\nv1.0 [by %s]",
-				"with": [
+				"text": "\nv1.0 by ",
+				"extra": [
 					{
 						"text": "AZer0",
 						"color": "aqua"
@@ -18,7 +17,7 @@
 				"color": "white"
 			}
 		],
-		"pack_format": 1,
+		"pack_format": 81,
 		"supported_formats": {
 			"min_inclusive": 48,
 			"max_inclusive": 81
