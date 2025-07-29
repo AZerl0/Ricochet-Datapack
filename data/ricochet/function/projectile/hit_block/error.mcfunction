@@ -12,6 +12,6 @@ execute if function ricochet:projectile/hit_block/is_invalid_hit run return fail
     function ricochet:projectile/hit_block/error/generate_log with entity @s
     # 言語に対応したメッセージを表示
     function ricochet:util/lang/get
-    execute on origin run function ricochet:projectile/hit_block/error/message with storage temp:
+    execute on origin run function ricochet:projectile/hit_block/error/message
     # 後処理
     data remove storage temp: error_log

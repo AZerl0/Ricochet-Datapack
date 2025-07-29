@@ -11,6 +11,8 @@ execute if predicate ricochet:mainhand/max_level_enchanted_book run return fail
 
 # メインハンドのアイテムの跳弾エンチャントのレベルを取得
 execute store result score $level temp run data get entity @s SelectedItem.components.minecraft:stored_enchantments.levels.ricochet:ricochet
+# マルチバージョン対応
+execute if score $level temp matches 0 store result score $level temp run data get entity @s SelectedItem.components.minecraft:stored_enchantments.ricochet:ricochet
 
 # 手に2つ以上の本を持っていたら調整
 execute if predicate ricochet:mainhand/has_at_least_two_books run function ricochet:gameplay/enchanted_book_from_slime/upgrade/give_book
