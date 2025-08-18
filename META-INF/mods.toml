@@ -1,0 +1,30 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)" # Forge 1.21.x 系は FML 47.x
+license="CC BY-NC-SA 4.0"
+issueTrackerURL="https://github.com/AZerl0/Ricochet-Datapack/issues"
+
+[[mods]]
+modId="ricochetdp"
+version="1.0.0"
+displayName="Ricochet-Datapack"
+displayURL="https://www.stardustlabs.net/"
+logoFile="pack.png"
+authors="あれい/AZer0"
+credits="AZer0: Owner"
+description='''
+Use your ricochet to make trick shots!
+'''
+
+[[dependencies.ricochetdp]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ricochetdp]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="BOTH"

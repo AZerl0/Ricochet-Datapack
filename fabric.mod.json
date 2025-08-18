@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "ricochetdp",
+	"version": "1.0.0",
+	"name": "Ricochet-Datapack",
+	"description": "Use your ricochet to make trick shots!",
+	"authors": ["あれい / AZer0"],
+	"license": "CC BY-NC-SA 4.0",
+	"contact": {
+		"sources": "https://github.com/AZerl0/Ricochet-Datapack",
+		"issues": "https://github.com/AZerl0/Ricochet-Datapack/issues"
+	},
+	"icon": "pack.png",
+	"environment": "*",
+	"depends": {
+		"fabricloader": ">=0.12.7",
+		"minecraft": ">=1.21 <1.22"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.twitter": "https://x.com/_AZer0",
+				"modmenu.wiki": "https://github.com/AZerl0/Ricochet-Datapack/wiki"
+			}
+		}
+	}
+}
