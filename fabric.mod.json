@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "ricochetdp",
 	"version": "1.0.0",
-	"name": "Ricochet-Datapack",
-	"description": "Use your ricochet to make trick shots!",
+	"name": "Ricochet-Enchantment",
+	"description": "Use your ricochet to make trick shots!\n跳弾を使いこなして、トリックショットを決めよう!",
 	"authors": ["あれい / AZer0"],
 	"license": "CC BY-NC-SA 4.0",
 	"contact": {

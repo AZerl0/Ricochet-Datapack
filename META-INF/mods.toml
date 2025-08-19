@@ -6,13 +6,14 @@ issueTrackerURL="https://github.com/AZerl0/Ricochet-Datapack/issues"
 [[mods]]
 modId="ricochetdp"
 version="1.0.0"
-displayName="Ricochet-Datapack"
+displayName="Ricochet-Enchantment"
 displayURL="https://www.stardustlabs.net/"
 logoFile="pack.png"
 authors="あれい/AZer0"
 credits="AZer0: Owner"
 description='''
 Use your ricochet to make trick shots!
+跳弾を使いこなして、トリックショットを決めよう!
 '''
 
 [[dependencies.ricochetdp]]
