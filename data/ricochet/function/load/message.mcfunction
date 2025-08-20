@@ -6,7 +6,7 @@
 
 
 # 言語を取得
-function ricochet:util/lang/get
+function ricochet:lang/core/sync
 
 # バージョンに応じたメッセージを表示
 execute if function lib:version/is_less_than/1.21.5 run function ricochet:load/message/1.21.5_less_than
