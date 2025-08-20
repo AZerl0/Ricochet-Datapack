@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[1,)"
 license="CC BY-NC-SA 4.0"
-issueTrackerURL="https://github.com/AZerl0/Ricochet-Datapack/issues"
+issueTrackerURL="https://github.com/AZerl0/Ricochet-Enchantment/issues"
 
 [[mods]]
     modId="ricochetenchantment"

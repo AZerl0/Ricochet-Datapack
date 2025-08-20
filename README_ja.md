@@ -3,9 +3,9 @@
 
 <div align=center>
 
-# RicochetDatapack- 跳弾データパック
+# RicochetEnchantment- 跳弾エンチャント
 
-**マイクラの世界に跳弾エンチャントを追加するデータパック**
+**マイクラの世界に跳弾エンチャントを追加します**
 
 </div>
 
@@ -24,7 +24,7 @@ Minecraft JE 1.21~1.21.8
 
 ## ダウンロード
 
-[![GitHub release](https://img.shields.io/github/v/release/AZerl0/Ricochet-Datapack)](https://github.com/AZerl0/Ricochet-Datapack/releases)
+[![GitHub release](https://img.shields.io/github/v/release/AZerl0/Ricochet-Enchantment)](https://github.com/AZerl0/Ricochet-Enchantment/releases)
 
 ## 導入時の注意点
 

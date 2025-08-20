@@ -13,6 +13,6 @@ tellraw @s {\
     "clickEvent": {"action": "open_url","value": "https://x.com/_AZer0"}\
 }
 tellraw @s {"storage": "ricochet:translate","nbt": "values.'load.issue'"}
-tellraw @s {"text": "https://github.com/AZerl0/Ricochet-Datapack/issues","color": "gold","underlined": true,"hoverEvent": {"action": "show_text","contents": {"translate": "mco.notification.visitUrl.buttonText.default"}},"clickEvent": {"action": "open_url","value": "https://github.com/AZerl0/Ricochet-Datapack/issues"}}
+tellraw @s {"text": "https://github.com/AZerl0/Ricochet-Enchantment/issues","color": "gold","underlined": true,"hoverEvent": {"action": "show_text","contents": {"translate": "mco.notification.visitUrl.buttonText.default"}},"clickEvent": {"action": "open_url","value": "https://github.com/AZerl0/Ricochet-Enchantment/issues"}}
 
 tellraw @s {"text": "----------","color": "gray"}

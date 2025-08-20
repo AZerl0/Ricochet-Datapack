@@ -3,7 +3,7 @@
 
 <div align="center">
 
-# Ricochet-Datapack
+# Ricochet-Enchantment
 
 **Adds the Ricochet enchantment to Minecraft**
 
