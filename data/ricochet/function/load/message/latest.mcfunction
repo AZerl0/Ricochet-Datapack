@@ -1,4 +1,4 @@
-#> ricochet:load/message/latite
+#> ricochet:load/message/latest
 #
 # version >= 1.21.5
 #

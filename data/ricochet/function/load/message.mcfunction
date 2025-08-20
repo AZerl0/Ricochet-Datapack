@@ -10,4 +10,4 @@ function ricochet:util/lang/get
 
 # バージョンに応じたメッセージを表示
 execute if function lib:version/is_less_than/1.21.5 run function ricochet:load/message/1.21.5_less_than
-execute unless function lib:version/is_less_than/1.21.5 run function ricochet:load/message/latite
+execute unless function lib:version/is_less_than/1.21.5 run function ricochet:load/message/latest

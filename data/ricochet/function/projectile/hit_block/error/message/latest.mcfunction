@@ -1,4 +1,4 @@
-#> ricochet:projectile/hit_block/error/message/latite
+#> ricochet:projectile/hit_block/error/message/latest
 #
 # version >= 1.21.5
 #
