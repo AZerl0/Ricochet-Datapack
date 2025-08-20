@@ -4,22 +4,22 @@ license="CC BY-NC-SA 4.0"
 issueTrackerURL="https://github.com/AZerl0/Ricochet-Datapack/issues"
 
 [[mods]]
-    modId="ricochetdp"
+    modId="ricochetenchantment"
     version="1.0.0"
     displayName="Ricochet-Enchantment"
     displayURL="" #optional
     logoFile="pack.png"
     authors="あれい/AZer0"
-    credits="あれい/AZer0: Owner"
+    credits=""　#optional
     description="Use your ricochet to make trick shots!\n跳弾を使いこなして、トリックショットを決めよう!"
 
-[[dependencies.ricochetdp]]
+[[dependencies.ricochetenchantment]]
     modId="neoforge"
     mandatory=false
     versionRange="[21.5,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.ricochetdp]]
+[[dependencies.ricochetenchantment]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.21,1.22]"
