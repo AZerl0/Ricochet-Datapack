@@ -1,10 +1,8 @@
-#> ricochet:util/lang/ja
+#> ricochet:lang/translation/ja
 #
 # 日本語
 #
 # @within function ricochet:util/get_language
-
-function ricochet:util/lang/_init
 
 data modify storage ricochet:translate lang set value "ja"
 data merge storage ricochet:translate {values:{\

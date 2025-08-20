@@ -1,10 +1,8 @@
-#> ricochet:util/lang/en
+#> ricochet:lang/translation/en
 #
 # English
 #
-# @within function ricochet:projectile/hit_block/error/en
-
-function ricochet:util/lang/_init
+# @within function ricochet:lang/core/sync
 
 data modify storage ricochet:translate lang set value "en"
 data merge storage ricochet:translate {values:{\

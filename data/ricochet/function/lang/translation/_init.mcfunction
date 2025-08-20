@@ -1,8 +1,8 @@
-#> ricochet:util/lang/_init
+#> ricochet:lang/translation/_init
 #
 # 言語の初期化
 #
-# @within function ricochet:util/lang/*
+# @within function ricochet:lang/core/sync
 
 data modify storage ricochet:translate lang set value "Null"
 
