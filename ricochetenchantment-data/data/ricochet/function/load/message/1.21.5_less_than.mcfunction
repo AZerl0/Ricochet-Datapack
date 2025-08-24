@@ -8,7 +8,7 @@ tellraw @s {"text": "----------","color": "gray"}
 
 tellraw @s {"storage": "ricochet:translate","nbt": "values.'load.install'"}
 tellraw @s {\
-    "text": "by §bAZer0",\
+    "text": "by §bあれい/AZer0",\
     "hoverEvent": {"action": "show_text","contents": {"storage": "ricochet:translate","nbt": "values.'load.credit.open_x'"}},\
     "clickEvent": {"action": "open_url","value": "https://x.com/_AZer0"}\
 }
