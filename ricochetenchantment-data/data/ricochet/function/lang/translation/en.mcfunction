@@ -6,7 +6,7 @@
 
 data modify storage ricochet:translate lang set value "en"
 data merge storage ricochet:translate {values:{\
-"load.install":"§aRicochet-Datapack§r has been introduced",\
+"load.install":"§aRicochet-Enchantment§r has been introduced",\
 "load.credit.open_x":"Open X",\
 "load.issue":"Please report bugs here",\
 "error.unexpected":"An unexpected error has occurred",\
